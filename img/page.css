@@ -1,0 +1,24 @@
+        *{
+            list-style:none;
+            padding:0;
+            margin:0;
+            font-size: 2px;
+        }
+.container{
+    width:90vw;
+    height:90vh;
+    /*display:flex;*/
+    border: 1px solid black;
+    /*column-count: 3;*/
+    flex-wrap: wrap;
+}
+
+.IMG{
+    width:100px;
+    height: 200px;
+    background-image: url("1.png");
+    background-size:100px 200px;
+    border: 1px solid black;
+    perspective: 200px;
+    transform:rotateY(10deg) translateZ(1px);
+    }
